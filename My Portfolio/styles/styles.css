@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background: no-repeat url(./back.jpg); */
+}
+
+
+/* Navigation Bar */
+header{
+    background-color: #161a1d;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: fixed; */
+}
+header #logo{
+    color: #ba181b;
+    margin-top: 5px;
+    /* border: 2px solid #ba181b; */
+}
+header #logo:hover{
+    /* color: #d3d3d3; */
+    cursor: pointer;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ba181b;
+}
+header ul li a:hover{
+    color: #d3d3d3;
+}
+header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+header button#contact-btn{
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    /* border-radius: 25px; */
+    color: #161a1d;
+    background-color: rgb(186, 24, 27);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    height: 29px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* padding-bottom: 8px;
+    padding-top: -5px; */
+    width: 110px;
+    text-align: center;
+}
+header button#contact-btn:hover{
+    cursor: pointer;
+    color: #d3d3d3;
+    background-color: #a4161a;
+}
+
+/* Clear Div */
+.clear{
+    clear: both;
+}
+
+/* About Me Block */
+#about-me{
+    height: 420px;
+    width: 100%;
+    background-color: #d3d3d3;
+}
+
+#about-me h1{
+    color: #ba181b;
+    text-decoration: underline;
+}
+
+#content{
+    font-size: 1.5rem;
+    width: 250px;
+    line-height: 1.5;
+    height: 380px;
+    padding: 40px;
+    float: left;
+    margin-left: 305px;
+}
+
+article{
+    width: 40vw;
+}
+
+#image-div{
+    height: 380px;
+    width: 380px;
+    /* background-color: #ba181b; */
+    float: right;
+    margin: 35px 250px 23px 0px;
+}
+
+#image{
+    height: 350px;
+    width: 350px;
+    background: url(../images/me.jpg);
+    align-items: center;
+    background-size: 100%;
+    background-position: bottom;
+    transition: 1s;
+    cursor: zoom-in;
+}
+#image:hover{
+    background-size: 150%;
+}
